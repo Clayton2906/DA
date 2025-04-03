@@ -1,6 +1,5 @@
 import pandas as pd
 
-
 # Load dataset
 file_path = r"C:\Users\angir\Downloads\worldcities.csv"
 df = pd.read_csv(file_path)
