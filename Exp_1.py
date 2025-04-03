@@ -1,6 +1,5 @@
 import pandas as pd
 
-
 # Sample dataset
 data = {'Values': [10, 20, 20, 30, 40, 50, None, 60, 70, 80, None]}
 df = pd.DataFrame(data)
