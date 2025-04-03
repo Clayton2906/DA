@@ -2,6 +2,7 @@ import matplotlib.pyplot as plt
 import seaborn as snb
 import pandas as pd
 
+
 penguins = snb.load_dataset("penguins")
 variable = 'flipper_length_mm'
 data = penguins[variable].dropna() 
